@@ -1,0 +1,46 @@
+
+<style>
+body {  background: url(https://i.pinimg.com/originals/52/ec/bb/52ecbb1273c5d9b78b7a07863fe63234.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+.error-template {padding: 40px 15px;text-align: center;font-size: 20px; }
+.error-actions {margin-top:15px;margin-bottom:15px;}
+.error-actions button{ margin-right:10px;  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;}
+ 
+</style>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="error-template">
+                <h1>
+                    Oops!</h1>
+                <h2>
+                    404 Not Found</h2>
+                <div class="error-details">
+                    Sorry, an error has occured, Requested page not found!
+                </div>
+                <div class="error-actions">
+                        <button id="myButton" class="float-left submit-button" >Take Me Home</button>
+                 <script type="text/javascript">
+               document.getElementById("myButton").onclick = function () {
+        location.href = "https://proiectnode.adrianamaxim.repl.co/index.html";};
+             
+                </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
